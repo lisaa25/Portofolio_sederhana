@@ -1,0 +1,205 @@
+/* {
+  border: 1px solid yellow;
+}*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3d569b;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-image: url("https://i.pinimg.com/564x/7a/54/b2/7a54b23c9f81d9eb6fcf764db8682ada.jpg");
+  background-size: cover;
+  border-bottom: 1px solid #ecca9c;
+  text-align: center;
+  padding: 90px 0;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+header h1,
+p {
+  color: #fff;
+  margin: 30px;
+}
+
+header b {
+  color: #fba834;
+}
+
+#downloadButton {
+  background-color: #e8efcf;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#downloadButton:hover {
+  background-color: #fba834;
+}
+
+#downloadButton:active {
+  background-color: #e8efcf;
+}
+
+/* Section */
+#project {
+  padding: 60px 0;
+  /*background-image: url("https://i.pinimg.com/564x/7a/54/b2/7a54b23c9f81d9eb6fcf764db8682ada.jpg");
+  background-size: cover;
+  /*background-color: #0f0f46;*/
+}
+
+section h2 {
+  color: #fba834;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table,
+td {
+  border: 1px solid #3d569b;
+  background-color: #7688b9;
+}
+
+td {
+  padding: 10px;
+  color: #ffff;
+  text-align: left;
+}
+
+li {
+  margin: 10px;
+  text-align: left;
+  list-style-type: none;
+}
+
+/* my skills */
+#mySkills {
+  padding: 50px 50px;
+  border: 1px solid #fba834;
+}
+
+#mySkills h1 {
+  color: #fba834;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skills {
+  background-color: #7688b9;
+  display: inline-block;
+  margin: 10px;
+  padding-top: 30px;
+  width: 22.5%;
+  border-radius: 10%;
+}
+.skills img {
+  display: block;
+  margin: auto;
+  height: 130px;
+  width: 130px;
+  border-radius: 20%;
+}
+
+.skills h3 {
+  color: #0f0f46;
+  text-align: center;
+}
+
+.skills p {
+  color: #ffff;
+  text-align: center;
+}
+
+/* Contact */
+#contact {
+  background-color: #0f0f46;
+  padding: 20px 0;
+}
+
+.contact-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.contact-icons a {
+  color: #ffff;
+  font-size: 50px;
+  margin: 0 10px; /* Jarak antara ikon */
+  text-decoration: none;
+}
+
+.contact-icons a:hover {
+  color: #fba834;
+}
+
+/* Footer */
+footer {
+  background-color: #0f0f46;
+  border-top: 1px solid #ecca9c;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  color: #ffff;
+  font-weight: bold;
+  margin: 0;
+}
+/* Footer end */
+
+/* slide foto*/
+.slideshow-container {
+  width: 900px;
+  position: relative;
+  margin: auto;
+}
+
+.slideshow-container h1 {
+  text-align: center;
+  color: #ecca9c;
+}
+.mySlides img {
+  width: 100%;
+  height: 450px;
+  border-radius: 10%;
+  border: 2px solid #fba834;
+}
+
+.mySlides {
+  display: none;
+  margin: 40px;
+}
+
+.fade {
+  animation-name: fade; /*efek memudar*/
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
